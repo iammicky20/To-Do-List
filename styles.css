@@ -1,0 +1,70 @@
+body{
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h1{
+    color:#4dabf7;
+}
+.container{
+    background-color: rgba(52, 50, 33, 0.822);
+    border-radius:10px ;
+    padding: 10px;
+    
+}
+
+button{
+    background-color: #3e67f0; /* A clean red instead of the harsh blue */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+
+}
+#todo-input{
+    padding:5px;
+    border-radius: 5px; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;            
+    margin: 20px 0;       
+    width: 100%;          
+}
+
+li {
+    background-color: #2a2a2a; 
+    color: #e0e0e0;            
+    padding: 6px 16px;
+    margin-bottom: 10px;      
+    border-radius: 8px;       
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;       
+    transition: transform 0.2s ease;
+}
+
+
+
+li button {
+    background-color: #ff5252; 
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+}
+
+li button:hover {
+    background-color: #e04040; 
+}
